@@ -8,7 +8,7 @@ SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
 });
 $(document).ready(function() {
-  SC.stream('/tracks/221054822',function(sound){});
+  SC.stream('/tracks/221054822',function(sound){
        });
        $('#start').click(function(e) {
               e.preventDefault();
@@ -19,3 +19,4 @@ $(document).ready(function() {
                  e.preventDefault();
                  sound.stop();
                });
+});
