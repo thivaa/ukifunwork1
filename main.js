@@ -9,7 +9,7 @@ SC.initialize({
 });
 $(document).ready(function() {
   SC.stream('/tracks/221054822',function(sound){
-       });
+
        $('#start').click(function(e) {
               e.preventDefault();
               sound.start(); });
@@ -19,4 +19,5 @@ $(document).ready(function() {
                  e.preventDefault();
                  sound.stop();
                });
+});
 });
