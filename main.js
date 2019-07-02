@@ -16,4 +16,16 @@ $(document).ready(function() {
                  sound.stop();
                });
 });
+SC.stream('/tracks/568198284',function(sound){
+
+     $("#start1").click(function(e) {
+            e.preventDefault();
+            sound.start();
+           });
+
+
+            $("#stop1").click(function(e) {
+               e.preventDefault();
+               sound.stop();
+             });
 });
