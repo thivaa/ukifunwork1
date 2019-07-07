@@ -1,13 +1,224 @@
 <html>
 <head>
+
+  <title>songs online</title>
+  <link rel="icon" href="iconfinder_folder_music_18340.png" >
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="//connect.soundcloud.com/sdk.js"></script>
 <script src="main.js"></script>
+
+
+  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
+      <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/magnific-popup.css">
+      <link rel="stylesheet" href="css/jquery-ui.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+      <link rel="stylesheet" href="css/mediaelementplayer.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+      <link rel="stylesheet" href="css/fl-bigmug-line.css">
+
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>-->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//connect.soundcloud.com/sdk.js"></script>
+<script src="main.js"></script>-->
+
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+/*float: left;*/
+  width: 140px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 30%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+    background-color:gray; color:white;
+}
+
+
+button{
+  color: black;
+  border-radius: 5px;
+width:40%;
+}
+
+
+</style>
 </head>
-<body>
-<button type="button" name="button" id="start">start</button>
-<button type="button" name="button" id="stop">stop</button>
 
 
-<button type="button" name="button" id="start1">start</button>
-<button type="button" name="button" id="stop1">stop</button>
+<body style="background-color:black;">
+  <div class="">
+    <nav class="navbar navbar-default" >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" style="background-color:Green;" href="#">
+            <span  class="glyphicon glyphicon-film " ><a href="#" class="text-white h2 mb-0"></span>Songs<b> play<span class="text-primary">.</span></b></a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active" ><a href="index.html">Home</a></li>
+          <li><a href="#">Collections </a>
+        </ul>
+
+
+      </div>
+    </nav>
+  </div>
+
+<div style="display:inline-flex; margin:10px 10px 5px 10px;">
+
+
+  <div class="gallery">
+     <img src="e.jpeg" alt="Cinque Terre" width="600" height="400">
+
+      <div class="desc">
+        <button  type="button" name="button" id="start"><i class="fas fa-play"></i>.</button>
+      <button  type="button" name="button" id="stop"><i class="fas fa-stop"></i>.</button></div>
+  </div>
+
+
+
+  <div class="gallery">
+     <img src="u.jpeg" alt="Cinque Terre" width="600" height="400">
+
+      <div class="desc">
+        <button type="button" name="button" id="start1"><i class="fas fa-play"></i>.</button>
+        <button type="button" name="button" id="stop1"><i class="fas fa-stop"></i>.</button></div>
+  </div>
+
+
+  <div class="gallery">
+     <img src="d.jpeg" alt="Cinque Terre" width="600" height="400">
+
+      <div class="desc">
+        <button type="button" name="button" id="start2"><i class="fas fa-play"></i>.</button>
+      <button type="button" name="button" id="stop2"><i class="fas fa-stop"></i>.</button></div>
+  </div>
+
+
+  <div class="gallery">
+     <img src="a.jpg" alt="Cinque Terre" width="600" height="400">
+
+      <div class="desc">
+        <button type="button" name="button" id="start3"><i class="fas fa-play"></i>.</button>
+      <button type="button" name="button" id="stop3"><i class="fas fa-stop"></i>.</button></div>
+  </div>
+
+
+
+
+</div>
+
+<br>
+
+
+<div style="display:inline-flex;  margin:5px 10px 10px 10px;">
+
+
+<div class="gallery">
+  <img src="q.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start4">play</button>
+    <button type="button" name="button" id="stop4">stop</button></div>
+</div>
+
+
+<div class="gallery">
+   <img src="c.jpeg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start5">play</button>
+      <button type="button" name="button" id="stop5">stop</button></div>
+</div>
+
+
+<div class="gallery">
+   <img src="w.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start6">play</button>
+    <button type="button" name="button" id="stop6">stop</button></div>
+</div>
+
+
+
+<div class="gallery">
+   <img src="r.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start7">play</button>
+    <button type="button" name="button" id="stop7">stop</button></div>
+</div>
+
+
+</div>
+
+
+
+
+<br>
+
+
+
+<div style="display:inline-flex;  margin:5px 10px 10px 10px;">
+
+
+<div class="gallery">
+  <img src="t.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start8">play</button>
+    <button type="button" name="button" id="stop8">stop</button></div>
+</div>
+
+
+<div class="gallery">
+   <img src="y.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start9">play</button>
+      <button type="button" name="button" id="stop9">stop</button></div>
+</div>
+
+
+<div class="gallery">
+   <img src="i.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start10">play</button>
+    <button type="button" name="button" id="stop10">stop</button></div>
+</div>
+
+
+
+<div class="gallery">
+   <img src="o.jpg" alt="Cinque Terre" width="600" height="400">
+
+    <div class="desc"><button type="button" name="button" id="start11">play</button>
+    <button type="button" name="button" id="stop11">stop</button></div>
+</div>
+
+
+</div>
