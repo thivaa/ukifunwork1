@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 //ngk peranppea
 
-SC.stream('tracks/621668781',function(sound){
+SC.stream('/tracks/621668781',function(sound){
 
      $("#start1").click(function(e) {
             e.preventDefault();
@@ -74,7 +74,7 @@ SC.stream('/tracks/556842441',function(sound){
 
 //naanum rowdy thaan
 
-SC.stream('/tracks/317968951 ',function(sound){
+SC.stream('/tracks/317968951',function(sound){
 
      $("#start4").click(function(e) {
             e.preventDefault();
